@@ -1,0 +1,38 @@
+a {
+  text-decoration: none !important;
+  color: #c6c6c6;
+}
+#footer {
+  position: absolute;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 30px;
+  background: #292929;
+  left: 0;
+  margin-top: 100px;
+  padding: 100px 4rem;
+  .info {
+    .description {
+      font-family: "Inter";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 17px;
+      color: #c6c6c6;
+      .link {
+        padding-bottom: 10px;
+      }
+    }
+  }
+
+  #copy-right {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    background: #1a1a1a;
+    padding: 14px;
+    font-size: 14px;
+    color: #c6c6c6;
+  }
+}

@@ -1,0 +1,23 @@
+<div id="cover">
+  <div id="phrase">
+    <h1>
+      Tech Yes! Solutions. <br />
+      Your guide in the <b>digital age.</b>
+    </h1>
+  </div>
+  <div id="contact">
+    <button>Let’s Talk</button>
+  </div>
+
+  <div id="strengths">
+    <div class="strength" *ngFor="let strengths of strengths">
+      <div class="icon">
+        <img [src]="strengths.icon" alt="Icon" />
+      </div>
+
+      <div class="description">
+        <p>{{ strengths.description }}</p>
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,22 @@
+button {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 12px 36px;
+  gap: 10px;
+  background: #9949ff;
+  border-radius: 20px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #7a2eeb;
+  transition: 0.8s;
+  transform: scale(1.1);
+}

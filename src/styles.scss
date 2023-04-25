@@ -1,1 +1,40 @@
 /* You can add global styles to this file, and also import other style files */
+@import "styles/fonts.scss";
+@import "styles/buttons.scss";
+body {
+  background-image: url("./assets/bg.png");
+  overscroll-behavior: none;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0;
+  font-family: "Inter", sans-serif;
+  color: #fff;
+}
+
+p {
+  margin: 0;
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+  body {
+    padding: 0 1rem;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  body {
+    padding: 0 2rem;
+  }
+}
+
+@media (min-width: 1024px) and (max-width: 1279px) {
+  body {
+    padding: 0 3rem;
+  }
+}
+
+@media (min-width: 1280px) {
+  body {
+    padding: 0 4rem;
+  }
+}
