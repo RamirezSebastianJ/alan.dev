@@ -1,0 +1,7 @@
+<div id="index-item">
+  <p id="index" [ngClass]="{ even: index??2 % 2 == 0 }">
+    {{ index | number : "2.0" }}
+  </p>
+  <p id="name">{{ name }}</p>
+  <div id="divider"></div>
+</div>
